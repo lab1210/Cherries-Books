@@ -1,0 +1,91 @@
+.cherry {
+  width: 200px;
+  height: 200px;
+  background-image: url("cherry.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+}
+.cherry-top {
+  top: 50px;
+  left: 20px;
+}
+
+.cherry-btm {
+  bottom: -150px;
+  right: 2px;
+}
+@media (min-width: 992px) {
+  .Home-content {
+    width: 960px;
+  }
+}
+.Home-content {
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  font-family: "Parkinsans", sans-serif;
+}
+.Home-content div {
+  max-width: 50%;
+}
+.Home-content h2 {
+  font-weight: 500;
+  color: #d2042d;
+  font-size: 60px;
+  text-align: left;
+  margin: 16px 0 30px;
+}
+.Home-content h3 {
+  font-size: 25px;
+  margin: 24px 0 12px;
+  color: #000000;
+  font-weight: 400;
+}
+.Home-content h4 {
+  font-weight: 300;
+}
+.Home-content div div {
+  display: flex;
+}
+.homebtn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 2px solid transparent;
+  white-space: nowrap;
+  transition: all 0.1s ease-in-out;
+  position: relative;
+  padding: 5px 25px;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 6px;
+  margin: 3px 5px;
+  color: #fff;
+  background-color: #d2042d;
+  border-color: transparent;
+  min-width: 170px;
+}
+.homebtn:hover {
+  background-color: #e30330;
+}
+.Read {
+  margin-left: 0;
+  margin-right: 16px;
+}
+.Share {
+  margin-right: 0;
+}
+.right-img {
+  margin-top: 50px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  margin-left: 40px;
+}
+.right-img img {
+  width: 100%;
+  align-self: center;
+}

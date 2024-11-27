@@ -1,0 +1,6 @@
+* {
+  box-sizing: border-box;
+}
+.Container {
+  padding: 100px 0 40px;
+}
